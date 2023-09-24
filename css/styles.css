@@ -1,0 +1,46 @@
+:root {
+  --bg-color: #a0d0ea;
+  --border-color: #a8bf7e;
+  --btn-color: #efefef;
+  --operator-btn-color: #efff93;
+  --clear-btn-color: #fc9faa;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 310px;
+  border: 1rem solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+}
+.row {
+  justify-content: space-between;
+  align-items: space-evenly;
+}
+.btn {
+  margin: 0.2rem;
+  border-radius: 5px;
+  background-color: var(--btn-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #000;
+  border-color: var(--btn-color);
+}
+.card {
+  margin: 0.4rem 1.7rem 0.8rem 0.4rem;
+  border: 0px;
+  padding: 1rem;
+  text-align: end;
+}
+.operator {
+  background-color: var(--operator-btn-color);
+}
+.clear {
+  background-color: var(--clear-btn-color);
+}
